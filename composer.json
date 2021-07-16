@@ -1,0 +1,26 @@
+{
+    "name": "1026jota/antecedentes-procuraduria",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "1026jota",
+            "email": "1026jota@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {"Jota\\AntecedentesProcuraduria\\": "src/"}
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Jota\\AntecedentesProcuraduria\\Providers\\AntecedentesProcuraduriaProviders"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "^8.49",
+        "nesk/puphpeteer": "^2.0"
+    }
+}
