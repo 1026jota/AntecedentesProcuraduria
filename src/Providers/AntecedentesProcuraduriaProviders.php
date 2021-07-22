@@ -3,7 +3,7 @@
 namespace Jota\OnuList\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Jota\OnuList\Class\OnuList;
+use Jota\OnuList\Classes\OnuList;
 
 class OnuListServiceProvider extends ServiceProvider
 {

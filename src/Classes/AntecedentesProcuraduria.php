@@ -125,7 +125,7 @@ class AntecedentesProcuraduria
     }
 
     /**
-     * Realiza las busqueda en la pagina de la procuraduria un numero de cedula(Colombiana)
+     * Busca en la pagina de la procuraduria un numero de cedula(Colombiana)
      * y retorna uan respuesta con nombre y antecedentes penales
      * @author alexander montaño
      * @param string $numero_cedula : identificacion a buscar
