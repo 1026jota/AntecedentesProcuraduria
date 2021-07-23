@@ -1,6 +1,6 @@
 <?php
 
-namespace Jota\AntecededntesProcuraduria\Classes;
+namespace Jota\AntecedentesProcuraduria\Classes;
 
 use Nesk\Puphpeteer\Puppeteer;
 use Nesk\Rialto\Data\JsFunction;

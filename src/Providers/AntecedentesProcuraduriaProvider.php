@@ -1,21 +1,21 @@
 <?php
 
-namespace Jota\OnuList\Providers;
+namespace Jota\AntecedentesProcuraduria\Providers;
 
+use Jota\AntecedentesProcuraduria\Classes\AntecedentesProcuraduria;
 use Illuminate\Support\ServiceProvider;
-use Jota\OnuList\Classes\OnuList;
 
-class OnuListServiceProvider extends ServiceProvider
+class AntecedentesProcuraduriaProvider extends ServiceProvider
 {
     /**
      * Register any application services.
      *
      * @return void
      */
-    public function register(): void
+    public function register() : void
     {
         $this->app->bind('Antecedentes', function () {
-            return new OnuList();
+            return new AntecedentesProcuraduria();
         });
     }
 
