@@ -14,7 +14,7 @@
     "extra": {
         "laravel":{
             "providers": [
-                "Jota\\AntecedentesProcuraduria\\Providers\\AntecedentesProcuraduriaProviders"
+                "Jota\\AntecedentesProcuraduria\\Providers\\AntecedentesProcuraduriaProvider"
             ]
         }
     },
