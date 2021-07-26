@@ -89,12 +89,12 @@ class AntecedentesProcuraduria
                 'response' => 'El número de cedula no genera resultados',
             ];
         } else {
-            $response = str_replace('  ', '', str_replace('</h2>', '', $array_response[1]));
-            $response = str_replace(PHP_EOL, '', $response);
+            $result_response = str_replace('  ', '', str_replace('</h2>', '', $array_response[1]));
+            $result_response = str_replace(PHP_EOL, '', $result_response);
             $this->result['is_registered'] = true;
             $this->result['result'] = [
                 'name' => $this->getName($response),
-                'response' => $response
+                'response' => $result_response
             ];
         }
     }
